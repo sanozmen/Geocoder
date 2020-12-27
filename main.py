@@ -21,7 +21,7 @@ def geocoderFunc():
 
         #arcgis geocoder 2nd option, slower but it doesn't require any api key
         coord= geocoder.arcgis(completeAddress)
-        #writing values into a new text file defined at the beginning
+        #writing values into the new text file defined at the beginning
         f.write(data['label'][ind])
         f.write(';')
         f.write(completeAddress)
