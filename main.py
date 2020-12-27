@@ -17,7 +17,7 @@ def geocoderFunc():
         completeAddress=data['adress'][ind]+" , "+data['city'][ind]
 
         #bing geocoder first option, works faster but requires api key, that's why I commented it out
-        #coord= geocoder.bing(completeAddress, key='AmJGP7kiFBbJLXZ-JScwvJpNm3BWmDcJS3JiNoxJKT0HqvqgBgLFyEGE1MRhxdTu')
+        #coord= geocoder.bing(completeAddress, key='')
 
         #arcgis geocoder 2nd option, slower but it doesn't require any api key
         coord= geocoder.arcgis(completeAddress)
